@@ -1,0 +1,211 @@
+	body {
+		background-image:url('bground.png')
+	}
+	
+	@font-face{
+		font-family: londrina;
+		src: url(LondrinaThin.otf);
+	}
+	
+	div{
+		font-family: londrina;
+	}
+	
+	h1{ 
+		color: white;
+		text-align:center;
+		font-family: londrina;
+		font-size: 50px;
+		position: relative;
+	}
+	
+	h2{
+		color: white;
+		text-align:center;
+		font-family: londrina;
+		font-size: 30px;
+		position: relative;
+		font-weight:100;
+	}
+
+	h3{
+		color: white;
+		text-align:center;
+		font-family: londrina;
+		font-size: 20px;
+		position: relative;
+		font-weight:100;
+	}
+
+	h4{
+		color: white;
+		text-align:center;
+		font-family: Calibri;
+		font-size: 20px;
+		position: relative;
+		font-weight:100;
+	}	
+	
+	span{
+		color:white;
+	}
+	
+	span.contact2{
+		color: black;
+	}
+	
+	p{	
+		color: #6e6f66;
+		text-align: justify;
+		font-family: Calibri, sans-serif;
+		font-size: 17px;
+		margin-left:25px;
+		margin-right:25px;
+	}
+	
+	li{
+		color: #6e6f66;
+		font-family: Calibri, sans-serif;
+		font-size: 17px;
+	}
+	
+	#table,td{
+		width: 100px;
+		font-family:londrina;
+		font-size: 25px;
+		text-align:center;
+		<!border: 1px solid white;>	
+	}
+	
+	table.disc{
+		margin-left:40px;
+	}
+	
+	td.album{
+		width:530px;
+	}
+	
+	
+	td.disco{
+		width:1000px;
+	}
+	
+	table.galleryTable{
+		margin-left:-50px;
+	}
+	
+	table.eventTable{
+		margin-left: 385px;
+		width: auto;
+	}
+	
+	td.eventTd{
+		border: 5px solid white;
+		width:250px;
+		padding: 7px;
+	}
+	
+	table.contactTable{
+		margin-left:260px;
+		margin-top: -50px;
+	}
+	td.contactTd{
+		width:300px;
+		<!border: 1px solid white;>	
+	}
+	
+	p.contact{
+		color: #6e6f66;
+		text-align: center;
+		font-family: Calibri, sans-serif;
+		font-size: 17px;
+	}
+	
+	form{
+		margin-left:20%;
+		color:white;
+	}
+	
+	div.row {
+	  clear: both;
+	  padding-top: 10px;
+	 }
+	div.row span.question {
+	  float: left;
+	  width: 200px;
+	  text-align: left;
+	  color:#6e6f66;
+	  font-family: Calibri;
+	}
+	div.row span.answer {
+	  float: left;
+	  width: 200px;
+	  text-align: left;
+	} 
+	
+	div.row span.submit{
+		float: center;
+	}
+	
+	
+	#timeline{
+		margin-left:20px;
+		margin-top:-300px;
+		position:absolute;
+		width: 250px;
+	}
+	
+	#topBit{
+		width: 101.5%;
+		height: 9%;
+		margin-left:-1%;
+	}
+	
+	#middleBit{
+		width: 850px;
+		height: 800px;
+		margin-left: 18%;
+		position: relative;
+		background-color: black;		
+	}
+	
+	
+	#bottomBit{
+		width: 101.5%;
+		height: 9%;
+		margin-left:-1%;
+		margin-top: 5%;
+		background-color: #2a2a2a;
+		position:float;
+	}
+	
+	a:link{
+		color:white;
+	}
+	
+	a:visited{
+		color:white;
+	}
+	
+	a:hover{
+		animation: 	0.3s multicolour infinite;
+		-webkit-animation: 0.3s multicolor infinite;
+	}
+		
+	@-webkit-keyframes multicolor {
+		50% {
+			color: #fb1f7b;
+		}
+		100%{
+			color:yellow;
+		}		
+}
+	
+	
+	
+
+	
+
+	
+	
+	
